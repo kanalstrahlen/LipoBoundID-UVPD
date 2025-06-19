@@ -2,6 +2,8 @@
 
 **Deep characterisation of bacterial protein‑lipid complexes by multistage mass spectrometry (MS²/MS³) and 213 nm ultraviolet photodissociation (UVPD).**
 
+![GUI Screenshot](resources/lb_screenshot.PNG)
+
 LipoBoundID‑UVPD ingests Thermo RAW files, links MS³ HCD/UVPD scans to their parent MS² spectra, and annotates phospholipid headgroups, fatty‑acyl chains, and double‑bond positions. A GUI lets you visualise every spectrum, while a tidy CSV report captures the quantitative results.
 
 ## Quick start
