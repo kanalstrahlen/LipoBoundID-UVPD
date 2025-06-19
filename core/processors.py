@@ -256,8 +256,8 @@ class MS2Processor:
                 if not match.empty:
                     lipid_summary.at[idx, f'detected_{mode}'] = True
                     lipid_summary.at[idx, f'intensity_{mode}'] = match['intensity'].values[0]
-                    if 'ppm_diff' in match.columns:
-                        lipid_summary.at[idx, f'error_{mode}'] = match['ppm_diff'].values[0]
+                    if 'calibration_residual' in match.columns:
+                        lipid_summary.at[idx, f'error_{mode}'] = match['calibration_residual'].values[0]
     
         return lipid_summary
 

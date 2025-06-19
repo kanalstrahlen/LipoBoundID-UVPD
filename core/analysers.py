@@ -42,7 +42,7 @@ class MS2Analyser:
                 spectrum_peaks,
                 self.neg_theoretical_masses,
                 ppm_threshold=10,
-                mass_correction=21, # to do remove
+                mass_correction=0,
                 polarity='Negative'
             )
 
@@ -195,7 +195,7 @@ class MS2Analyser:
         #plt.plot(x_cal, y_lower, linestyle='--', color='black')
         #plt.xlabel('m/z')
         #plt.ylabel('Mass error (ppm)')
-        #plt.savefig('')
+        #plt.savefig(f'calibration.{polarity}.pdf')
 
 
         
