@@ -1213,7 +1213,7 @@ class LipoBoundIDApp(wx.Frame):
         """Show about dialog"""
         info = wx.adv.AboutDialogInfo()
         info.SetName("LipoBoundID")
-        info.SetVersion("0.0.4")
+        info.SetVersion("0.1.0")
         info.SetDescription("Deep characterisation of protein-lipid complexes with mass spectrometry")
         info.SetCopyright("(C) 2025")
         info.AddDeveloper("Jack L. Bennett & Carla Kirschbaum")
