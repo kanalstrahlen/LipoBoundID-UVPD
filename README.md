@@ -14,7 +14,7 @@ conda create -n lipobound python=3.9
 conda activate lipobound
 
 # 2. Clone the repository
-git clone https://github.com/<your‑org>/LipoBoundID-UVPD.git
+git clone https://github.com/kanalstrahlen/LipoBoundID-UVPD.git
 cd LipoBoundID-UVPD
 
 # 3. Install dependencies
